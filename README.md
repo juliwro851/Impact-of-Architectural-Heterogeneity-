@@ -3,7 +3,7 @@
 ## Overview
 This repository contains a series of Search and Rescue (SAR) multi-agent reinforcement learning experiments designed to analyze how different factors affect agent coordination and rescue performance. The project investigates the impact of:
 
-- **Reward structure** (local vs. global rewards)
+- **Reward structure** (hybrid vs. local rewards)
 - **Agent uniformity** (homogeneous vs. heterogeneous teams)
 - **Role composition** (firefighter-to-rescuer ratios)
 - **Observation scope** (agent visibility range)
@@ -13,8 +13,8 @@ Each experiment is self-contained in its own folder and differs from the baselin
 ## Repository Structure
 ```
 .
-├── A1/                    # Experiment A1: Uniformity with local rewards
-├── A2/                    # Experiment A2: Uniformity with global rewards
+├── A1/                    # Experiment A1: Uniformity with hybrid rewards
+├── A2/                    # Experiment A2: Uniformity with local rewards
 ├── B1/                    # Experiment B: Role ratio 3:1 and 1:3 (firefighters:rescuers)
 ├── C/                     # Experiment C: Increased observation window (5×5 → 7×7)
 ├── D/                     # Experiment D: Additional experimental configuration
